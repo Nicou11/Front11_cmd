@@ -19,3 +19,5 @@ Front11-plus = 'Front11_plus.plus:add'
 Front11-multi = 'Front11_multi.multi:multiply'
 Front11-div = 'Front11_div.div:divide'
 
+[project.urls]
+Homepage = "https://github.com/nicou11/Front11_cmd"
