@@ -1,6 +1,6 @@
 [project]
 name = "Front11_cmd"
-version = "0.2.2"
+version = "0.3.4"
 description = "Default template for PDM package"
 authors = [
     {name = "Nicou11", email = "lyoungin1204@gmail.com"},
@@ -15,9 +15,9 @@ license = {text = "MIT"}
 distribution = true
 
 [project.scripts]
-Front11-plus = 'Front11_plus.plus:add'
-Front11-multi = 'Front11_multi.multi:multiply'
-Front11-div = 'Front11_div.div:divide'
+Front11-plus = 'front11_cmd.front11_cmd:a'
+Front11-multi = 'front11_cmd.front11_cmd:m'
+Front11-div = 'front11_cmd.front11_cmd:d'
 
 [project.urls]
 Homepage = "https://github.com/nicou11/Front11_cmd"
